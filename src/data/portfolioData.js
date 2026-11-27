@@ -147,6 +147,7 @@ export const portfolioData = {
       roleHeading: 'My Role',
       githubLabel: 'GitHub Repository',
       recordingLabel: 'Project Recording',
+      googlePlayLabel: 'Google Play',
       items: [
         {
           id: 'revexa',
@@ -181,9 +182,9 @@ export const portfolioData = {
           title: 'Easy English',
           subtitle: 'Educational App for Kids',
           category: 'flutter',
-          platformBadge: 'Flutter • Google Play Review',
+          platformBadge: 'Flutter • Published on Google Play',
           statusNote:
-            'Google Play Status: Submitted to Google Play and currently under review. The Google Play Store link will be added once the review process is completed.',
+            'Google Play Status: Published and currently available on Google Play Store.',
           technologies: ['Flutter', 'Dart', 'JSON', 'Text-to-Speech (TTS)', 'SharedPreferences'],
           description:
             'Easy English is an interactive educational application designed to help children learn English vocabulary through pictures, audio pronunciation, educational games, and quizzes. The application provides a fun and engaging learning experience with multiple vocabulary categories and interactive activities.',
@@ -205,6 +206,7 @@ export const portfolioData = {
           links: {
             github: 'https://github.com/MichaelDawoodBakheet/esay_english-.git',
             recording: 'https://drive.google.com/drive/folders/1npIyjE8Ob0tqaWC5WXywXGgwjjbIrSwo?usp=sharing',
+            googlePlay: 'https://play.google.com/store/apps/details?id=com.michaeldawood.easyenglish',
           },
         },
         {
@@ -615,6 +617,7 @@ export const portfolioData = {
       roleHeading: 'دوري في المشروع',
       githubLabel: 'مستودع GitHub',
       recordingLabel: 'فيديو عرض المشروع',
+      googlePlayLabel: 'متجر Google Play',
       items: [
         {
           id: 'revexa',
@@ -649,9 +652,9 @@ export const portfolioData = {
           title: 'Easy English',
           subtitle: 'تطبيق تعليمي للأطفال',
           category: 'flutter',
-          platformBadge: 'Flutter • قيد المراجعة على Google Play',
+          platformBadge: 'Flutter • منشور على Google Play',
           statusNote:
-            'حالة Google Play: تم رفع التطبيق على Google Play وهو حاليًا قيد المراجعة، وسيتم إضافة رابط المتجر فور اكتمال المراجعة.',
+            'حالة Google Play: تم نشر التطبيق بنجاح وهو متاح حاليًا على متجر Google Play.',
           technologies: ['Flutter', 'Dart', 'JSON', 'Text-to-Speech (TTS)', 'SharedPreferences'],
           description:
             'Easy English هو تطبيق تعليمي تفاعلي يساعد الأطفال على تعلّم مفردات اللغة الإنجليزية عبر الصور والنطق الصوتي والألعاب التعليمية والاختبارات في تجربة ممتعة ومتنوعة.',
@@ -673,6 +676,7 @@ export const portfolioData = {
           links: {
             github: 'https://github.com/MichaelDawoodBakheet/esay_english-.git',
             recording: 'https://drive.google.com/drive/folders/1npIyjE8Ob0tqaWC5WXywXGgwjjbIrSwo?usp=sharing',
+            googlePlay: 'https://play.google.com/store/apps/details?id=com.michaeldawood.easyenglish',
           },
         },
         {

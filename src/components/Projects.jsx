@@ -137,6 +137,25 @@ export default function Projects({ content, onSelectProject }) {
                       <PlayCircle className="h-4 w-4" />
                     </a>
                   )}
+                  {project.links.googlePlay && (
+                    <a
+                      href={project.links.googlePlay}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={projects.googlePlayLabel}
+                      aria-label={`${project.title} ${projects.googlePlayLabel}`}
+                      className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-emerald-500/30 bg-emerald-500/10 text-emerald-600 transition-colors hover:border-emerald-400 hover:bg-emerald-500/20 dark:text-emerald-400 dark:hover:text-emerald-300"
+                    >
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="h-4 w-4"
+                        aria-hidden="true"
+                      >
+                        <path d="M3.609 1.814L13.792 12 3.61 22.186a1.75 1.75 0 0 1-.61-1.335V3.149c0-.517.224-.997.609-1.335zm11.244 11.247l2.63 2.63-9.95 5.657 7.32-8.287zm3.575-2.032l2.927 1.664c.86.489.86 1.725 0 2.214l-2.927 1.664-2.852-2.852 2.852-2.69zm-3.575-1.153L7.533 1.59l9.95 5.657-2.63 2.63z" />
+                      </svg>
+                    </a>
+                  )}
                 </div>
               </div>
             </article>
